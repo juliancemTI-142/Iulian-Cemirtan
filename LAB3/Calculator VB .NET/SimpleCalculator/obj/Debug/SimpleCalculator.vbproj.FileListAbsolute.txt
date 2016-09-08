@@ -1,0 +1,11 @@
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.vbprojResolveAssemblyReference.cache
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.Form1.resources
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.Resources.resources
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.vbproj.GenerateResource.Cache
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.xml
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.xml
+C:\Users\iulia\Desktop\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb

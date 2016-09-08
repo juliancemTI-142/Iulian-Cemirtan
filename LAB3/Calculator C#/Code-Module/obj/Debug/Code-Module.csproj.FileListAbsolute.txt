@@ -1,0 +1,5 @@
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Code-Module\bin\Debug\Code-Module.dll
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Code-Module\bin\Debug\Code-Module.pdb
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Code-Module\obj\Debug\Code-Module.csprojResolveAssemblyReference.cache
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Code-Module\obj\Debug\Code-Module.dll
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Code-Module\obj\Debug\Code-Module.pdb

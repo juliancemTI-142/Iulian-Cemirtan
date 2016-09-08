@@ -1,0 +1,11 @@
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\bin\Debug\Calculator.exe.config
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\bin\Debug\Calculator.exe
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\bin\Debug\Calculator.pdb
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\bin\Debug\Code-Module.dll
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\bin\Debug\Code-Module.pdb
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\obj\Debug\Calculator.Form1.resources
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\obj\Debug\Calculator.exe
+D:\IulianCem\Universitate\Anul II\Sem II\MIDPS\MIDPS GitHubSlavic\RAPOARTE IC\LAB 3\Source Code\Calculator\obj\Debug\Calculator.pdb
