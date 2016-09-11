@@ -1,0 +1,952 @@
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group
+$ git init
+Initialized empty Git repository in D:/REPOSITORIES/LAB6Group/.git/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote add TeamWorkRepo git@github.com:julianPractice/LAB6Group.git
+
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote -v
+TeamWorkRepo    git@github.com:julianPractice/LAB6Group.git (fetch)
+TeamWorkRepo    git@github.com:julianPractice/LAB6Group.git (push)
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git add Source\ Code/.gitignore Source\ Code/.gitattributes
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git commit -m'Add .gitignore and .gitattributes for VisualStudio 2015 project'
+[master (root-commit) 488ba8b] Add .gitignore and .gitattributes for VisualStudio 2015 project
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 308 insertions(+)
+ create mode 100644 Source Code/.gitattributes
+ create mode 100644 Source Code/.gitignore
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git push TeamWorkRepo master
+ERROR: Permission to julianPractice/LAB6Group.git denied to juliancemTI-142.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git ini
+git: 'ini' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+        init
+        gui
+        init-db
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git in
+git: 'in' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+        init
+        svn
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git init
+Reinitialized existing Git repository in D:/REPOSITORIES/LAB6Group/.git/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote add TeamWorkRepo git@github.com:juliancemTI-142/LAB6GroupWork.git
+fatal: remote TeamWorkRepo already exists.
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote add TeamWorkRepoSlavic git@github.com:juliancemTI-142/LAB6GroupWork.git
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote -v
+TeamWorkRepo    git@github.com:julianPractice/LAB6Group.git (fetch)
+TeamWorkRepo    git@github.com:julianPractice/LAB6Group.git (push)
+TeamWorkRepoSlavic      git@github.com:juliancemTI-142/LAB6GroupWork.git (fetch)
+TeamWorkRepoSlavic      git@github.com:juliancemTI-142/LAB6GroupWork.git (push)
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git init
+Initialized empty Git repository in D:/REPOSITORIES/LAB6Group/.git/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote add TeamWorkRepoSlavic git@github.com:juliancemTI-142/LAB6GroupWork.git
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git remote -v
+TeamWorkRepoSlavic      git@github.com:juliancemTI-142/LAB6GroupWork.git (fetch)
+TeamWorkRepoSlavic      git@github.com:juliancemTI-142/LAB6GroupWork.git (push)
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git add Source\ Code/.gitignore Source\ Code/.gitattributes
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git commit -m 'Add .gitignore and .gitattributes for VisualStudio 2015 project'
+[master (root-commit) 745c1c0] Add .gitignore and .gitattributes for VisualStudio 2015 project
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 308 insertions(+)
+ create mode 100644 Source Code/.gitattributes
+ create mode 100644 Source Code/.gitignore
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git push TeamWorkRepoSlavic master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 2.76 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To git@github.com:juliancemTI-142/LAB6GroupWork.git
+ * [new branch]      master -> master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git branch
+* master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git fetch TeamWorkRepoSlavic
+remote: Counting objects: 50, done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 50 (delta 18), reused 48 (delta 16), pack-reused 0
+Unpacking objects: 100% (50/50), done.
+From github.com:juliancemTI-142/LAB6GroupWork
+ * [new branch]      Veaceslav  -> TeamWorkRepoSlavic/Veaceslav
+   745c1c0..7abf618  master     -> TeamWorkRepoSlavic/master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git branch
+* master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git merge TeamWorkRepoSlavic/Veaceslav
+Updating 745c1c0..4ac9ce0
+error: The following untracked working tree files would be overwritten by merge:
+        Source Code/ForwardingProject.Domain/Abstract/IBrokerRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/ICustomerRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/IDriverRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/IInvoiceRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/IRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/ITrailerRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/ITruckRepository.cs
+        Source Code/ForwardingProject.Domain/App.config
+        Source Code/ForwardingProject.Domain/Context/EFBrokerRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFCustomerRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFDbContext.cs
+        Source Code/ForwardingProject.Domain/Context/EFDriverRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFInvoiceRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFTrailerRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFTruckRepository.cs
+        Source Code/ForwardingProject.Domain/Entities/Broker.cs
+        Source Code/ForwardingProject.Domain/Entities/Customer.cs
+        Source Code/ForwardingProject.Domain/Entities/Driver.cs
+        Source Code/ForwardingProject.Domain/Entities/Equipment.cs
+        Source Code/ForwardingProject.Domain/Entities/Invoice.cs
+        Source Code/ForwardingProject.Domain/Entities/Person.cs
+        Source Code/ForwardingProject.Domain/Entities/Trailer.cs
+        Source Code/ForwardingProject.Domain/Entities/Truck.cs
+        Source Code/ForwardingProject.Domain/ForwardingProject.Domain.csproj
+        Source Code/ForwardingProject.Domain/Properties/AssemblyInfo.cs
+        Source Code/ForwardingProject.Domain/packages.config
+        Source Code/ForwardingProject.sln
+Please move or remove them before you can merge.
+Aborting
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git merge TeamWorkRepoSlavic/Veaceslav
+Updating 745c1c0..4ac9ce0
+error: The following untracked working tree files would be overwritten by merge:
+        Source Code/ForwardingProject.Domain/Abstract/IBrokerRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/ICustomerRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/IDriverRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/IInvoiceRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/IRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/ITrailerRepository.cs
+        Source Code/ForwardingProject.Domain/Abstract/ITruckRepository.cs
+        Source Code/ForwardingProject.Domain/App.config
+        Source Code/ForwardingProject.Domain/Context/EFBrokerRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFCustomerRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFDbContext.cs
+        Source Code/ForwardingProject.Domain/Context/EFDriverRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFInvoiceRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFTrailerRepository.cs
+        Source Code/ForwardingProject.Domain/Context/EFTruckRepository.cs
+        Source Code/ForwardingProject.Domain/Entities/Broker.cs
+        Source Code/ForwardingProject.Domain/Entities/Customer.cs
+        Source Code/ForwardingProject.Domain/Entities/Driver.cs
+        Source Code/ForwardingProject.Domain/Entities/Equipment.cs
+        Source Code/ForwardingProject.Domain/Entities/Invoice.cs
+        Source Code/ForwardingProject.Domain/Entities/Person.cs
+        Source Code/ForwardingProject.Domain/Entities/Trailer.cs
+        Source Code/ForwardingProject.Domain/Entities/Truck.cs
+        Source Code/ForwardingProject.Domain/ForwardingProject.Domain.csproj
+        Source Code/ForwardingProject.Domain/Properties/AssemblyInfo.cs
+        Source Code/ForwardingProject.Domain/packages.config
+        Source Code/ForwardingProject.sln
+Please move or remove them before you can merge.
+Aborting
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git merge -f TeamWorkRepoSlavic/Veaceslav
+error: unknown switch `f'
+usage: git merge [<options>] [<commit>...]
+   or: git merge [<options>] <msg> HEAD <commit>
+   or: git merge --abort
+
+    -n                    do not show a diffstat at the end of the merge
+    --stat                show a diffstat at the end of the merge
+    --summary             (synonym to --stat)
+    --log[=<n>]           add (at most <n>) entries from shortlog to merge commit message
+    --squash              create a single commit instead of doing a merge
+    --commit              perform a commit if the merge succeeds (default)
+    -e, --edit            edit message before committing
+    --ff                  allow fast-forward (default)
+    --ff-only             abort if fast-forward is not possible
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --verify-signatures   Verify that the named commit has a valid GPG signature
+    -s, --strategy <strategy>
+                          merge strategy to use
+    -X, --strategy-option <option=value>
+                          option for selected merge strategy
+    -m, --message <message>
+                          merge commit message (for a non-fast-forward merge)
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --abort               abort the current in-progress merge
+    --progress            force progress reporting
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+    --overwrite-ignore    update ignored files (default)
+
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git merge TeamWorkRepoSlavic/Veaceslav
+Updating 745c1c0..4ac9ce0
+error: The following untracked working tree files would be overwritten by merge:
+        Source Code/ForwardingProject.sln
+Please move or remove them before you can merge.
+Aborting
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git merge TeamWorkRepoSlavic/Veaceslav
+Updating 745c1c0..4ac9ce0
+Fast-forward
+ .../Abstract/IBrokerRepository.cs                  |  8 +++
+ .../Abstract/ICustomerRepository.cs                |  8 +++
+ .../Abstract/IDriverRepository.cs                  | 10 ++++
+ .../Abstract/IInvoiceRepository.cs                 |  8 +++
+ .../Abstract/IRepository.cs                        | 12 ++++
+ .../Abstract/ITrailerRepository.cs                 |  8 +++
+ .../Abstract/ITruckRepository.cs                   |  8 +++
+ Source Code/ForwardingProject.Domain/App.config    | 13 +++++
+ .../Context/EFBrokerRepository.cs                  | 36 ++++++++++++
+ .../Context/EFCustomerRepository.cs                | 36 ++++++++++++
+ .../Context/EFDbContext.cs                         | 18 ++++++
+ .../Context/EFDriverRepository.cs                  | 35 ++++++++++++
+ .../Context/EFInvoiceRepository.cs                 | 36 ++++++++++++
+ .../Context/EFTrailerRepository.cs                 | 39 +++++++++++++
+ .../Context/EFTruckRepository.cs                   | 36 ++++++++++++
+ .../ForwardingProject.Domain/Entities/Broker.cs    | 13 +++++
+ .../ForwardingProject.Domain/Entities/Customer.cs  | 14 +++++
+ .../ForwardingProject.Domain/Entities/Driver.cs    | 16 ++++++
+ .../ForwardingProject.Domain/Entities/Equipment.cs | 19 +++++++
+ .../ForwardingProject.Domain/Entities/Invoice.cs   | 19 +++++++
+ .../ForwardingProject.Domain/Entities/Person.cs    | 16 ++++++
+ .../ForwardingProject.Domain/Entities/Trailer.cs   | 13 +++++
+ .../ForwardingProject.Domain/Entities/Truck.cs     | 10 ++++
+ .../ForwardingProject.Domain.csproj                | 66 ++++++++++++++++++++++
+ .../Properties/AssemblyInfo.cs                     | 36 ++++++++++++
+ .../ForwardingProject.Domain/packages.config       |  4 ++
+ Source Code/ForwardingProject.sln                  | 28 +++++++++
+ 27 files changed, 565 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/IBrokerRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/ICustomerRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/IDriverRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/IInvoiceRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/IRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/ITrailerRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Abstract/ITruckRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/App.config
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFBrokerRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFCustomerRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFDbContext.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFDriverRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFInvoiceRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFTrailerRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Context/EFTruckRepository.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Broker.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Customer.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Driver.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Equipment.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Invoice.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Person.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Trailer.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/Entities/Truck.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/ForwardingProject.Domain.csproj
+ create mode 100644 Source Code/ForwardingProject.Domain/Properties/AssemblyInfo.cs
+ create mode 100644 Source Code/ForwardingProject.Domain/packages.config
+ create mode 100644 Source Code/ForwardingProject.sln
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git add Source\ Code/packages/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ pwd
+/d/REPOSITORIES/LAB6Group
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group (master)
+$ cd Source\ Code/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code (master)
+$ pwd
+/d/REPOSITORIES/LAB6Group/Source Code
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code (master)
+$ cd ForwardingProject.WebUI/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ pwd
+/d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add Infrastructure/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'Add Infrastructure'
+[master 93657d0] Add Infrastructure
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 36 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/Infrastructure/NinjectDependencyResolv                                                                                                  er.cs
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git push TeamWorkRepoSlavic master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 806 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To git@github.com:juliancemTI-142/LAB6GroupWork.git
+   7abf618..93657d0  master -> master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add Models/
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/Models/bootstrap_1                                                                                                  .css.
+The file will have its original line endings in your working directory.
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'Add Models for the MVC project'
+[master 3d4b9a7] Add Models for the MVC project
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/Models/bootstrap_1                                                                                                  .css.
+The file will have its original line endings in your working directory.
+ 1 file changed, 6816 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/Models/bootstrap_1.css
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git push -u TeamWorkRepoSlavic master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 17.66 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+giTo git@github.com:juliancemTI-142/LAB6GroupWork.git
+   93657d0..3d4b9a7  master -> master
+tBranch master set up to track remote branch master from TeamWorkRepoSlavic.
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add Views/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'Add Views based on MVC'
+[master 6a560d9] Add Views based on MVC
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 377 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Driver/Create.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Driver/Edit.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Driver/Index.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Home/Index.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Shared/_Layout.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/_ViewStart.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/web.config
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git log
+commit 6a560d98d14cffa8fc184fdd638423c7b5c3573e
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:09:57 2016 +0300
+
+    Add Views based on MVC
+
+commit 3d4b9a797747d1a4cf74377b981906f037bf978f
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:09:19 2016 +0300
+
+    Add Models for the MVC project
+
+commit 93657d031581fe35a2abbcfcb863ff4ad87abc90
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:08:24 2016 +0300
+
+    Add Infrastructure
+
+commit 4ac9ce045488d701f96a4b002110bbe672fae2df
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:56:40 2016 +0300
+
+    Add other stuff
+
+commit 7579c22aba95c86b268253293206a3340ca06b1c
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:54:18 2016 +0300
+
+    Add Interfaces for public use
+
+commit 973a6e3ae1d33cbd4e0353a80b5d38cc71eb1edc
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:51:46 2016 +0300
+
+    Add new EFContexts
+
+commit 8420eb8d2ec93342831c2fba2cea28cbd6c9a30d
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:49:23 2016 +0300
+
+    Add Entities
+
+commit 7abf618839ae916e8105d3738c61e31a30396fc9
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:41:25 2016 +0300
+
+    Create a new solution: "ForwardingProjectSolution"
+
+commit 745c1c0b527734e8c487b42a2f66c220b025efac
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 14:31:00 2016 +0300
+
+    Add .gitignore and .gitattributes for VisualStudio 2015 project
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git reset HEAD master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git log
+commit 6a560d98d14cffa8fc184fdd638423c7b5c3573e
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:09:57 2016 +0300
+
+    Add Views based on MVC
+
+commit 3d4b9a797747d1a4cf74377b981906f037bf978f
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:09:19 2016 +0300
+
+    Add Models for the MVC project
+
+commit 93657d031581fe35a2abbcfcb863ff4ad87abc90
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:08:24 2016 +0300
+
+    Add Infrastructure
+
+commit 4ac9ce045488d701f96a4b002110bbe672fae2df
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:56:40 2016 +0300
+
+    Add other stuff
+
+commit 7579c22aba95c86b268253293206a3340ca06b1c
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:54:18 2016 +0300
+
+    Add Interfaces for public use
+
+commit 973a6e3ae1d33cbd4e0353a80b5d38cc71eb1edc
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:51:46 2016 +0300
+
+    Add new EFContexts
+
+commit 8420eb8d2ec93342831c2fba2cea28cbd6c9a30d
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:49:23 2016 +0300
+
+    Add Entities
+
+commit 7abf618839ae916e8105d3738c61e31a30396fc9
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:41:25 2016 +0300
+
+    Create a new solution: "ForwardingProjectSolution"
+
+commit 745c1c0b527734e8c487b42a2f66c220b025efac
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 14:31:00 2016 +0300
+
+    Add .gitignore and .gitattributes for VisualStudio 2015 project
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git reset 3d4b9a7
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git log
+commit 3d4b9a797747d1a4cf74377b981906f037bf978f
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:09:19 2016 +0300
+
+    Add Models for the MVC project
+
+commit 93657d031581fe35a2abbcfcb863ff4ad87abc90
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:08:24 2016 +0300
+
+    Add Infrastructure
+
+commit 4ac9ce045488d701f96a4b002110bbe672fae2df
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:56:40 2016 +0300
+
+    Add other stuff
+
+commit 7579c22aba95c86b268253293206a3340ca06b1c
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:54:18 2016 +0300
+
+    Add Interfaces for public use
+
+commit 973a6e3ae1d33cbd4e0353a80b5d38cc71eb1edc
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:51:46 2016 +0300
+
+    Add new EFContexts
+
+commit 8420eb8d2ec93342831c2fba2cea28cbd6c9a30d
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:49:23 2016 +0300
+
+    Add Entities
+
+commit 7abf618839ae916e8105d3738c61e31a30396fc9
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:41:25 2016 +0300
+
+    Create a new solution: "ForwardingProjectSolution"
+
+commit 745c1c0b527734e8c487b42a2f66c220b025efac
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 14:31:00 2016 +0300
+
+    Add .gitignore and .gitattributes for VisualStudio 2015 project
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git reset 3d4b9a797747d1a4cf74377b981906f037bf978f
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git log
+commit 3d4b9a797747d1a4cf74377b981906f037bf978f
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:09:19 2016 +0300
+
+    Add Models for the MVC project
+
+commit 93657d031581fe35a2abbcfcb863ff4ad87abc90
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 15:08:24 2016 +0300
+
+    Add Infrastructure
+
+commit 4ac9ce045488d701f96a4b002110bbe672fae2df
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:56:40 2016 +0300
+
+    Add other stuff
+
+commit 7579c22aba95c86b268253293206a3340ca06b1c
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:54:18 2016 +0300
+
+    Add Interfaces for public use
+
+commit 973a6e3ae1d33cbd4e0353a80b5d38cc71eb1edc
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:51:46 2016 +0300
+
+    Add new EFContexts
+
+commit 8420eb8d2ec93342831c2fba2cea28cbd6c9a30d
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:49:23 2016 +0300
+
+    Add Entities
+
+commit 7abf618839ae916e8105d3738c61e31a30396fc9
+Author: Veaceslav Barbarii <slava.barbarii@gmail.com>
+Date:   Fri Sep 9 14:41:25 2016 +0300
+
+    Create a new solution: "ForwardingProjectSolution"
+
+commit 745c1c0b527734e8c487b42a2f66c220b025efac
+Author: Iulian Cemirtan <Iulian Cemirtan>
+Date:   Fri Sep 9 14:31:00 2016 +0300
+
+    Add .gitignore and .gitattributes for VisualStudio 2015 project
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add Views/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'Add Views based on Models'
+[master ecd9a21] Add Views based on Models
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 377 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Driver/Create.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Driver/Edit.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Driver/Index.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Home/Index.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/Shared/_Layout.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/_ViewStart.cshtml
+ create mode 100644 Source Code/ForwardingProject.WebUI/Views/web.config
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 3.70 KiB | 0 bytes/s, done.
+Total 15 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To git@github.com:juliancemTI-142/LAB6GroupWork.git
+   3d4b9a7..ecd9a21  master -> master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add Controllers/
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'Add Controlers and Actions'
+[master 1e954fe] Add Controlers and Actions
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 94 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/Controllers/DriverController.cs
+ create mode 100644 Source Code/ForwardingProject.WebUI/Controllers/HomeController.cs
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.12 KiB | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To git@github.com:juliancemTI-142/LAB6GroupWork.git
+   ecd9a21..1e954fe  master -> master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add scripts/
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/bootstrap.                                                                                                  js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/bootstrap.                                                                                                  min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery-1.1                                                                                                  0.2.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery-1.1                                                                                                  0.2.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery.val                                                                                                  idate.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery.val                                                                                                  idate.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery.val                                                                                                  idate.unobtrusive.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/modernizr-                                                                                                  2.6.2.js.
+The file will have its original line endings in your working directory.
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'Add scripts to the project'
+[master 302f763] Add scripts to the project
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/bootstrap.                                                                                                  js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/bootstrap.                                                                                                  min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery-1.1                                                                                                  0.2.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery-1.1                                                                                                  0.2.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery.val                                                                                                  idate.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery.val                                                                                                  idate.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/jquery.val                                                                                                  idate.unobtrusive.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/scripts/modernizr-                                                                                                  2.6.2.js.
+The file will have its original line endings in your working directory.
+ 14 files changed, 22485 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/ai.0.22.9-build00167.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/ai.0.22.9-build00167.min.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/bootstrap.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/bootstrap.min.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery-1.10.2.intellisense.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery-1.10.2.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery-1.10.2.min.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery-1.10.2.min.map
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery.validate-vsdoc.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery.validate.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery.validate.min.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery.validate.unobtrusive.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/jquery.validate.unobtrusive.mi                                                                                                  n.js
+ create mode 100644 Source Code/ForwardingProject.WebUI/scripts/modernizr-2.6.2.js
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (19/19), 292.04 KiB | 0 bytes/s, done.
+Total 19 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+gitTo git@github.com:juliancemTI-142/LAB6GroupWork.git
+   1e954fe..302f763  master -> master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git add .
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/Content/bootstrap.                                                                                                  min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/fonts/glyphicons-h                                                                                                  alflings-regular.svg.
+The file will have its original line endings in your working directory.
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git commit -m 'The project is done... Tests passed successfully'
+[master f5e985c] The project is done... Tests passed successfully
+ Committer: Iulian Cemirtan <Iulian Cemirtan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/Content/bootstrap.                                                                                                  min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Source Code/ForwardingProject.WebUI/fonts/glyphicons-h                                                                                                  alflings-regular.svg.
+The file will have its original line endings in your working directory.
+ 17 files changed, 7983 insertions(+)
+ create mode 100644 Source Code/ForwardingProject.WebUI/App_Start/NinjectWebCommon.cs
+ create mode 100644 Source Code/ForwardingProject.WebUI/App_Start/RouteConfig.cs
+ create mode 100644 Source Code/ForwardingProject.WebUI/Content/Site.css
+ create mode 100644 Source Code/ForwardingProject.WebUI/Content/bootstrap.css
+ create mode 100644 Source Code/ForwardingProject.WebUI/Content/bootstrap.min.css
+ create mode 100644 Source Code/ForwardingProject.WebUI/ForwardingProject.WebUI.csproj
+ create mode 100644 Source Code/ForwardingProject.WebUI/Global.asax
+ create mode 100644 Source Code/ForwardingProject.WebUI/Global.asax.cs
+ create mode 100644 Source Code/ForwardingProject.WebUI/Properties/AssemblyInfo.cs
+ create mode 100644 Source Code/ForwardingProject.WebUI/Web.Debug.config
+ create mode 100644 Source Code/ForwardingProject.WebUI/Web.Release.config
+ create mode 100644 Source Code/ForwardingProject.WebUI/Web.config
+ create mode 100644 Source Code/ForwardingProject.WebUI/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 Source Code/ForwardingProject.WebUI/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 Source Code/ForwardingProject.WebUI/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 Source Code/ForwardingProject.WebUI/fonts/glyphicons-halflings-regular.wof                                                                                                  f
+ create mode 100644 Source Code/ForwardingProject.WebUI/packages.config
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 25, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (25/25), 108.90 KiB | 0 bytes/s, done.
+Total 25 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To git@github.com:juliancemTI-142/LAB6GroupWork.git
+   302f763..f5e985c  master -> master
+
+iulia@DESKTOP-3QGV36P MINGW64 /d/REPOSITORIES/LAB6Group/Source Code/ForwardingProject.WebUI (m                                                                                                  aster)
+$
